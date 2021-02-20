@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#122933</color>
+    <color name="colorPrimaryDark">#081c24</color>
+    <color name="colorAccent">#01d277</color>
+    <color name="tab_background_color">#40000000</color>
+    <color name="chip_background_color">#80787878</color>
+    <color name="horizontal_line_color">#DADADA</color>
+    <color name="text">#4F4F4F</color>
+    <color name="focus_text">#1F1F1F</color>
+</resources>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MovieProfile</string>
+    <string name="action_settings">Settings</string>
+    <string name="watch_list_header">Watch List</string>
+    <string name="ratings_list_card_header" >Ratings</string>
+    <string name="friend_list_card_header" >Friends</string>
+    <string-array name="ratings_array">
+        <item>Apocolypse Now</item>
+        <item>Shawshank Redemption</item>
+        <item>First Man</item>
+        <item>Predator</item>
+        <item>A Quiet Place</item>
+    </string-array>
+</resources>

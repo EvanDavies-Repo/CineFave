@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ProfileActivity"
+    tools:showIn="@layout/activity_profile">
+
+
+    <RelativeLayout
+        android:id="@+id/llll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Summary:"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="This is where the user's profile summary will go. They will be able to briefly describe themselves here." />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="10dp"
+                    app:cardCornerRadius="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/text_margin"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/watch_list_card_header"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/watch_list_header"
+                            android:textColor="@color/focus_text"
+                            android:textSize="24dp"
+                            android:textStyle="bold" />
+
+                        <View
+                            android:id="@+id/view"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="5dp"
+                            android:background="@color/horizontal_line_color" />
+
+                        <HorizontalScrollView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginBottom="4dp"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginRight="@dimen/card_margin"
+                                    android:orientation="vertical">
+
+
+
+                                    <ImageView
+                                        android:id="@+id/poster1"
+                                        android:layout_width="140dp"
+                                        android:layout_height="200dp"
+                                        app:srcCompat="@drawable/poster1" />
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginRight="@dimen/card_margin"
+                                    android:orientation="vertical">
+
+
+
+                                    <ImageView
+                                        android:id="@+id/poster2"
+                                        android:layout_width="140dp"
+                                        android:layout_height="200dp"
+                                        app:srcCompat="@drawable/poster2" />
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginRight="@dimen/card_margin"
+                                    android:orientation="vertical">
+
+
+
+                                    <ImageView
+                                        android:id="@+id/poster3"
+                                        android:layout_width="140dp"
+                                        android:layout_height="200dp"
+                                        app:srcCompat="@drawable/poster3" />
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginRight="@dimen/card_margin"
+                                    android:orientation="vertical">
+
+
+
+                                    <ImageView
+                                        android:id="@+id/poster4"
+                                        android:layout_width="140dp"
+                                        android:layout_height="200dp"
+                                        app:srcCompat="@drawable/poster4" />
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="@dimen/card_margin"
+                                    android:orientation="vertical">
+
+
+
+                                    <ImageView
+                                        android:id="@+id/poster5"
+                                        android:layout_width="140dp"
+                                        android:layout_height="200dp"
+                                        app:srcCompat="@drawable/poster5" />
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+                        </HorizontalScrollView>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:padding="@dimen/text_margin">
+
+                        <TextView
+                            android:id="@+id/watch_list_card_header2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Previously Watched"
+                            android:textColor="@color/focus_text"
+                            android:textSize="24dp"
+                            android:textStyle="bold" />
+
+                        <View
+                            android:id="@+id/view2"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="5dp"
+                            android:background="@color/horizontal_line_color" />
+
+                        <HorizontalScrollView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginBottom="4dp"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginRight="@dimen/card_margin"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:id="@+id/textView3-2"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="4/5 ★"
+                                        android:textAlignment="center" />
+
+                                    <ImageView
+                                        android:id="@+id/poster1-2"
+                                        android:layout_width="140dp"
+                                        android:layout_height="200dp"
+                                        app:srcCompat="@drawable/poster6" />
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginRight="@dimen/card_margin"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:id="@+id/textView4-2"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="5/5 ★"
+                                        android:textAlignment="center" />
+
+                                    <ImageView
+                                        android:id="@+id/poster2-2"
+                                        android:layout_width="140dp"
+                                        android:layout_height="200dp"
+                                        app:srcCompat="@drawable/poster7" />
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginRight="@dimen/card_margin"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:id="@+id/textView5-2"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="5/5 ★"
+                                        android:textAlignment="center" />
+
+                                    <ImageView
+                                        android:id="@+id/poster3-2"
+                                        android:layout_width="140dp"
+                                        android:layout_height="200dp"
+                                        app:srcCompat="@drawable/poster8" />
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginRight="@dimen/card_margin"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:id="@+id/textView2-2"
+
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="3/5 ★"
+
+                                        android:textAlignment="center" />
+
+                                    <ImageView
+                                        android:id="@+id/poster4-2"
+                                        android:layout_width="140dp"
+                                        android:layout_height="200dp"
+                                        app:srcCompat="@drawable/poster9" />
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="@dimen/card_margin"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:id="@+id/textView6-2"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="4/5 ★"
+                                        android:textAlignment="center" />
+
+                                    <ImageView
+                                        android:id="@+id/poster5-2"
+                                        android:layout_width="140dp"
+                                        android:layout_height="200dp"
+                                        app:srcCompat="@drawable/poster10" />
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+                        </HorizontalScrollView>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+</android.support.v4.widget.NestedScrollView>
